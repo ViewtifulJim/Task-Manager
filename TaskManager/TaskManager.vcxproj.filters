@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MVC">
+      <UniqueIdentifier>{e82e3592-978f-47c2-aaf5-70d9fb5a9be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MVC">
+      <UniqueIdentifier>{47bb4fe0-de79-44e4-8d7c-32ef0b2e14ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Task">
+      <UniqueIdentifier>{dc650d0d-f12c-437b-81ca-df2fae87032f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Task">
+      <UniqueIdentifier>{89dab71e-5ee3-4c24-a3ae-94c1f4abf213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observer Pattern">
+      <UniqueIdentifier>{68011411-cf0c-49c8-8ca4-24ce7926ca3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Observer Pattern">
+      <UniqueIdentifier>{bcdc4479-f7a6-49a8-8bc9-7c731d3c006c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TaskFileDecorator">
+      <UniqueIdentifier>{d71c0fe6-a6a7-4b69-8a53-0d1610c20751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TaskFileDecorator">
+      <UniqueIdentifier>{3c80221a-3720-4d29-a39f-531eb5f3ed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserStorage">
+      <UniqueIdentifier>{489ee264-1d72-44f9-b2cb-c3ec4d56fcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserStorage">
+      <UniqueIdentifier>{9db2310b-6392-478f-90e0-a26eb78e220b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files\MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskNode.cpp">
+      <Filter>Source Files\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Observer Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskFileDecorator.cpp">
+      <Filter>Source Files\TaskFileDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStorage.cpp">
+      <Filter>Source Files\UserStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="UserObserver.cpp">
+      <Filter>Source Files\Observer Pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Header Files\MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskNode.h">
+      <Filter>Header Files\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\Observer Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\Observer Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Observer Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskFileDecorator.h">
+      <Filter>Header Files\TaskFileDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStorage.h">
+      <Filter>Header Files\UserStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="UserObserver.h">
+      <Filter>Header Files\Observer Pattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

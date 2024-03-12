@@ -1,0 +1,3 @@
+1,Complete Task Manager (DSA),Complete DSA Assignment 2,05/03/2024,15/03/2024,High,In Progress,
+2,Complete Prezi Pres,James to complete presentation,15/03/2024,Medium,10/03/2024,To Do,
+3,Search for Job,Checked linkedin and Indeed,16/03/2024,16/03/2024,Medium,To Do,James Williams
